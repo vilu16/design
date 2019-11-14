@@ -58,6 +58,20 @@ body {
     text-decoration: none;
 }
 
+.has-sidebar a {
+    color: black;
+}
+
+.has-sidebar a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.has-sidebar a:active {
+    text-decoration: none;
+    color: lightgreen;
+}
+
 .toc ul {
     background-color: lightgray;
     border: lightgray solid 5px;
