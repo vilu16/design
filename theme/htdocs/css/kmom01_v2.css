@@ -1,0 +1,453 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v17/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30e0.ttf) format('truetype');
+}
+.rm-desktop ul {
+  display: none;
+}
+.rm-navbar-max {
+  display: none;
+}
+html {
+  background-color: darkseagreen;
+  overflow: auto;
+  font-family: 'Muli', sans-serif;
+}
+main {
+  min-height: 20em;
+}
+article {
+  overflow: auto;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 500px;
+}
+body {
+  margin: 8px auto;
+  padding: 8px;
+  width: 1080px;
+  background-color: antiquewhite;
+  border: 6px solid gray;
+  overflow: auto;
+}
+.region-breadcrumb a {
+  text-decoration: none;
+  color: black;
+}
+.region-breadcrumb li {
+  display: inline;
+  list-style: none;
+  padding-left: 5px;
+}
+.region-breadcrumb ul {
+  list-style: none;
+}
+.region-breadcrumb ul li:before {
+  content: "\00BB \0020";
+}
+.region-breadcrumb ul:visited {
+  text-decoration: none;
+}
+.has-sidebar a {
+  color: black;
+}
+.has-sidebar a:visited {
+  text-decoration: none;
+  color: black;
+}
+.has-sidebar a:active {
+  text-decoration: none;
+  color: lightgreen;
+}
+.toc ul {
+  background-color: lightgray;
+  border: lightgray solid 5px;
+  border-radius: 10px;
+  width: 20%;
+  float: left;
+  margin-right: 10px;
+}
+.rm-navbar a {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: black;
+  text-decoration: none;
+}
+.rm-navbar a:active {
+  color: darkgreen;
+}
+.rm-navbar a:hover {
+  color: black;
+}
+.rm-navbar a:visited {
+  color: black;
+}
+.rm-navbar li {
+  background-color: lightgreen;
+  border: darkseagreen solid 5px;
+  border-radius: 10px;
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+}
+.figure img {
+  width: 300px;
+}
+.site-logo img {
+  width: 50px;
+}
+.site-logo-text {
+  font-size: 42px;
+  line-height: 1;
+  text-shadow: 2px -2px 2px #ccc;
+}
+.site-logo-text a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+.site-logo-text a:hover {
+  color: #3B440D;
+  text-shadow: 2px -2px 2px #9FB129;
+}
+.site-logo-text-icon {
+  display: none;
+}
+.region-flash img {
+  width: 100%;
+}
+.byline img {
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+.byline {
+  font-size: 16px;
+  display: block;
+  border: solid lightgray 1px;
+  background-color: lightgray;
+  border-radius: 5px;
+  width: 95%;
+  min-height: 125px;
+  overflow-x: hidden;
+}
+.next {
+  float: right;
+}
+.omdesign img {
+  width: 100%;
+  border-radius: 10px;
+}
+.site-footer p {
+  text-align: center;
+  font-style: italic;
+}
+.region-footer {
+  padding-top: 10px;
+  border: 3px solid lightgray;
+  border-radius: 10px;
+  margin: 5px;
+  padding-left: 5px;
+  background-color: lightgray;
+  min-height: 150px;
+}
+.footer-column-1 {
+  float: left;
+  width: 33%;
+}
+.footer-column-2 {
+  float: left;
+  width: 33%;
+}
+.footer-column-3 {
+  float: right;
+  width: 33%;
+}
+@media (max-width: 980px) {
+  body {
+    width: 99%;
+  }
+  html {
+    width: 99%;
+  }
+}
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: darkseagreen;
+  overflow: auto;
+  font-family: 'Muli', sans-serif;
+}
+body {
+  margin: 8px auto;
+  padding: 8px;
+  width: 60%;
+  background-color: antiquewhite;
+  border: 6px solid gray;
+  overflow: auto;
+}
+main {
+  min-height: 20em;
+}
+article {
+  overflow: auto;
+  width: 70%;
+  min-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.wrap-all {
+  max-width: 100%;
+}
+/*.rm-desktop ul {
+    display: none;
+}*/
+/*.rm-navbar-max {
+    display: none;
+}*/
+.region-breadcrumb a {
+  text-decoration: none;
+  color: black;
+}
+.region-breadcrumb li {
+  display: inline;
+  list-style: none;
+  padding-left: 5px;
+}
+.region-breadcrumb ul {
+  list-style: none;
+}
+.region-breadcrumb ul li:before {
+  content: "\00BB \0020";
+}
+.region-breadcrumb ul:visited {
+  text-decoration: none;
+}
+.has-sidebar a {
+  color: black;
+}
+.has-sidebar a:visited {
+  text-decoration: none;
+  color: black;
+}
+.has-sidebar a:active {
+  text-decoration: none;
+  color: lightgreen;
+}
+.toc ul {
+  background-color: lightgray;
+  border: lightgray solid 5px;
+  border-radius: 10px;
+  width: 20%;
+  float: left;
+  margin-right: 10px;
+}
+.rm-menu-button {
+  background-color: lightgray;
+}
+.region-header-col-2 a {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+.region-header-col-2 a:active {
+  color: darkgreen;
+}
+.region-header-col-2 a:hover {
+  color: black;
+}
+.region-header-col-2 a:visited {
+  color: black;
+}
+.region-header-col-2 li {
+  background-color: lightgreen;
+  border: darkseagreen solid 5px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+.figure img {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.site-logo img {
+  width: 50px;
+}
+.site-logo-text {
+  font-size: 42px;
+  line-height: 1;
+  text-shadow: 2px -2px 2px #ccc;
+}
+.site-logo-text a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+.site-logo-text a:hover {
+  color: #3B440D;
+  text-shadow: 2px -2px 2px #9FB129;
+}
+.site-logo-text-icon {
+  display: none;
+}
+.region-flash img {
+  width: 100%;
+  background-color: #D4E7C7;
+}
+.region-header {
+  background-color: #D4E7C7;
+}
+.byline img {
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+.byline {
+  font-size: 16px;
+  display: block;
+  border: solid lightgray 1px;
+  background-color: lightgray;
+  border-radius: 5px;
+  width: 95%;
+  min-height: 125px;
+  overflow-x: hidden;
+}
+.next {
+  float: right;
+}
+.omdesign img {
+  width: 100%;
+  border-radius: 10px;
+}
+.site-footer p {
+  text-align: center;
+  font-style: italic;
+}
+.region-footer {
+  padding-top: 10px;
+  border: 3px solid lightgray;
+  border-radius: 10px;
+  margin: 5px;
+  padding-left: 5px;
+  background-color: lightgray;
+  min-height: 150px;
+}
+.footer-column-1 {
+  float: left;
+  width: 33%;
+}
+.footer-column-2 {
+  float: left;
+  width: 33%;
+}
+.footer-column-3 {
+  float: right;
+  width: 33%;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+  .site-logo-text {
+    display: none;
+  }
+}
+@media (max-width: 980px) {
+  body {
+    width: 100%;
+  }
+  html {
+    width: 100%;
+  }
+  article {
+    width: 100%;
+    margin: 2px;
+  }
+  img {
+    width: 150px;
+  }
+  .rm-navbar {
+    display: block;
+    width: 100%;
+  }
+  .toc ul {
+    float: none;
+    width: 50%;
+    margin: auto;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}

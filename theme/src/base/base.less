@@ -1,0 +1,36 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: darkseagreen;
+@bgColorBody: antiquewhite;
+@colorBody: #333;
+@fontFamilyBody: serif;
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+    overflow: auto;
+    font-family: 'Muli', sans-serif;
+}
+
+body {
+    margin: 8px auto;
+    padding: 8px;
+    width: 60%;
+    background-color: @bgColorBody;
+    border: 6px solid gray;
+    overflow: auto;
+}
+
+main {
+    min-height: 20em;
+}
+
+article {
+    overflow: auto;
+    width: 70%;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
