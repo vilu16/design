@@ -218,16 +218,6 @@ article {
   margin-left: auto;
   margin-right: auto;
 }
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
- * General layout
- */
 .inner-wrap {
   max-width: 100%;
   margin: 0 auto;
@@ -235,12 +225,6 @@ article {
 .wrap-all {
   max-width: 100%;
 }
-/*.rm-desktop ul {
-    display: none;
-}*/
-/*.rm-navbar-max {
-    display: none;
-}*/
 .region-breadcrumb a {
   text-decoration: none;
   color: black;
@@ -280,6 +264,10 @@ article {
 }
 .rm-menu-button {
   background-color: lightgray;
+}
+.region-header-col-2 {
+  margin-left: auto;
+  margin-right: auto;
 }
 .region-header-col-2 a {
   padding-right: 5px;
