@@ -1,0 +1,26 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: darkseagreen;
+@bgColorBody: antiquewhite;
+@colorBody: #333;
+@fontFamilyBody: serif;
+@fontSizeBody: 24px;
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+    overflow: auto;
+}
+
+body {
+    background-color: @bgColorBody;
+    border: 3px solid gray;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    min-height: 20em;
+}
