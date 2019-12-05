@@ -4976,6 +4976,20 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Import the parts making up the typographic grid.
  */
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v11/m8JVjfNVeKWVnh3QMuKkFcZVaUuC.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sulphur Point';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Sulphur Point Regular'), local('SulphurPoint-Regular'), url(https://fonts.gstatic.com/s/sulphurpoint/v1/RLp5K5vv8KaycDcazWFPBj2adf4Yvw.ttf) format('truetype');
+}
 /**
  * Typographic font families to choose from.
  */
@@ -5009,9 +5023,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      * Enable all default typographic elements.
      */
 }
-body {
-  font: 24px/1 serif;
-}
 h1,
 h2,
 h3,
@@ -5032,7 +5043,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.26315789;
+  line-height: 1.01052632;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 23px;
@@ -5050,7 +5061,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.06666667;
+  line-height: 1.28;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #CCC;
@@ -5060,7 +5071,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.14285714;
+  line-height: 1.37142857;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -5070,7 +5081,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.33333333;
+  line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -5080,7 +5091,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.6;
+  line-height: 1.92;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -5089,7 +5100,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.6;
+  line-height: 1.92;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -5239,7 +5250,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.14285714;
+  line-height: 1.37142857;
   text-align: left;
   font-style: italic;
 }
@@ -5298,6 +5309,10 @@ hr::after {
 }
 .hgrid .wrap-all {
   background-image: repeating-linear-gradient(to bottom, transparent 0px, transparent 23px, #f4e3d7 23px, #f4e3d7 24px);
+}
+.hgrid .wrap-all .row {
+  margin-bottom: 20px;
+  background-color: white;
 }
 .vgrid .inner-wrap {
   background: url("../../theme/src/@desinax/vertical-grid/img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5518,6 +5533,9 @@ body {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
+img {
+  width: 100%;
+}
 /**
  * Layout for responsive style through media queries.
  */
@@ -5639,8 +5657,10 @@ body {
   background-color: antiquewhite;
   border: 3px solid gray;
   font-size: 20px;
-  font-family: 'Quicksand', sans-serif;
 }
 main {
   min-height: 20em;
+}
+img {
+  width: 100%;
 }

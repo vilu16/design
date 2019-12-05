@@ -1,8 +1,8 @@
 /*!
- * LESS version of the stylesheet for design kmom03.
+ * LESS version of the stylesheet for design dark.
  *
- * This stylesheet is for the design course and kmom03. Its intention is to
- * use kmom03.css and lessify the style and use this as a wrapper for the new
+ * This stylesheet is for the design course and kmom04. Its intention is to
+ * use kmom03 and lessify the style and use this as a wrapper for the new
  * style.
  */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -5043,7 +5043,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.01052632;
+  line-height: 1.26315789;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 23px;
@@ -5061,7 +5061,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.28;
+  line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #CCC;
@@ -5071,7 +5071,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.37142857;
+  line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -5081,7 +5081,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.6;
+  line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -5091,7 +5091,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.92;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -5100,7 +5100,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.92;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -5250,7 +5250,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.37142857;
+  line-height: 1.71428571;
   text-align: left;
   font-style: italic;
 }
@@ -5638,29 +5638,46 @@ img {
     margin-right: 0.52083333%;
   }
 }
-/**
- * Base style to affect HTML elements on a general scale.
- */
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/quicksand/v19/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-xw.ttf) format('truetype');
+a {
+  color: #30688A;
 }
 html {
-  overflow-y: scroll;
-  background-color: darkseagreen;
-  overflow: auto;
+  background-color: #040505;
+  font-family: Sulphur Point, sans-serif;
+  color: white;
+  font-size: 18px;
 }
 body {
-  background-color: antiquewhite;
-  border: 3px solid gray;
-  font-size: 20px;
+  background-color: #293333;
+  border-radius: 10px;
 }
-main {
-  min-height: 20em;
+code {
+  background-color: #65878A;
 }
-img {
-  width: 100%;
+.region-flash {
+  display: none;
+}
+.region-main img {
+  border: #3C5052 solid 5px;
+  border-radius: 7px;
+}
+.region-header-col-1 {
+  display: none;
+}
+.region-header-col-2 li {
+  background-color: #749191;
+  padding: 5px;
+  border: 5px solid #040505;
+}
+.region-header-col-2 a {
+  color: white;
+}
+.byline {
+  background-color: #415252;
+}
+.region-header-col-2 a:visited {
+  color: white;
+}
+.region-breadcrumb a {
+  color: white;
 }

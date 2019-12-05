@@ -38,5 +38,10 @@ return [
             "url" => "test",
             "title" => "Testsida för utveckling"
         ],
+        [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapport",
+        ],
     ],
 ];

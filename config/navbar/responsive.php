@@ -36,6 +36,11 @@ return [
                         "url" => "redovisning/kmom03",
                         "title" => "Redovisning för kmom03.",
                     ],
+                    [
+                        "text" => "Kmom04",
+                        "url" => "redovisning/kmom04",
+                        "title" => "Redovisning för kmom04.",
+                    ],
                 ],
             ],
         ],
@@ -48,6 +53,15 @@ return [
             "text" => "Styleväljare",
             "url" => "style",
             "title" => "Välj stylesheet.",
+            "submenu" => [
+                "items" => [
+                    [
+                    "text" => "Rapport färgschema",
+                    "url" => "rapport/fargschema",
+                    "title" => "Rapport för färgschema",
+                    ],
+                ],
+            ],
         ],
         [
             "text" => "Verktyg",

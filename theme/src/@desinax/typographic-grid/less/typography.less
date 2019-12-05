@@ -12,12 +12,13 @@
 @fontFamilyBody: @fontFamilyCalibri;
 @fontFamilyCode: @fontFamilyCourier;
 
-body {
-    #desinax-hgrid.font(@fontSizeBody);
-}
-
 #desinax-hgrid.activateDefaultTypography();
 
 .hgrid .wrap-all {
     #desinax-hgrid.showGridAlt();
+
+    .row {
+        margin-bottom: 20px;
+        background-color: white;
+    }
 }
