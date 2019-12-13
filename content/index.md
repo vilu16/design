@@ -17,7 +17,7 @@ spel, serier eller filmer. Tar även en liten golfrunda när vädret tillåter d
 
 <div class="byline">
 <div class="bylinepic">
-[FIGURE src="img/viktor-me2.jpg" alt="byline bild"]
+[FIGURE src="img/viktor-me2.jpg" alt="byline bild" class="left"]
 </div>
 <div class="bylinetext">
 Viktor Lundberg är webbprogrammerings student på Bleking Tekniska Högskola i Karlskrona. Kommer ursprungligen från Höllviken utanför Malmö och flyttade till Karlskrona för att studera.

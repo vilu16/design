@@ -41,6 +41,11 @@ return [
                         "url" => "redovisning/kmom04",
                         "title" => "Redovisning för kmom04.",
                     ],
+                    [
+                        "text" => "Kmom05",
+                        "url" => "redovisning/kmom05",
+                        "title" => "Redovisning för kmom05.",
+                    ],
                 ],
             ],
         ],
@@ -53,15 +58,6 @@ return [
             "text" => "Styleväljare",
             "url" => "style",
             "title" => "Välj stylesheet.",
-            "submenu" => [
-                "items" => [
-                    [
-                    "text" => "Rapport färgschema",
-                    "url" => "rapport/fargschema",
-                    "title" => "Rapport för färgschema",
-                    ],
-                ],
-            ],
         ],
         [
             "text" => "Verktyg",
@@ -73,5 +69,48 @@ return [
             "url" => "test",
             "title" => "Testsida för utveckling"
         ],
+        [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapporter",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Rapport färgschema",
+                        "url" => "rapport/fargschema",
+                        "title" => "Rapport färgschema",
+                    ],
+                    [
+                        "text" => "Rapport laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport laddningstid",
+                    ],
+                ],
+            ],
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Blogg 1",
+                        "url" => "blogg/mitt-forsta-inlagg",
+                        "title" => "Blogg 1",
+                    ],
+                    [
+                        "text" => "Blogg 2",
+                        "url" => "blogg/mitt-andra-inlagg",
+                        "title" => "Blogg 2",
+                    ],
+                    [
+                        "text" => "Blogg 3",
+                        "url" => "blogg/mitt-tredje-inlagg",
+                        "title" => "Blogg 3",
+                    ],
+                ],
+            ],
+        ]
     ],
 ];

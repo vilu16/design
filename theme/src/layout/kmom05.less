@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@fontFamilyHTML: @fontFamilyMinimal;
+
+img {
+    width: 100%;
+}
+
+.region-flash {
+    display: none;
+}
+
+.region-header-col-2 li {
+    border: none;
+    background: lightgray;
+    height: auto;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/backgroundminimal.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.9);
+    #desinax-hgrid.font(@fontFamilyHTML);
+    font-size: 18px;
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.push(@columns/@columns);
+}
+
+.site-logo-text {
+    font-size: 24px;
+}
+
+.site-logo-img {
+    width: 30px;
+}
+
+figure.figure {
+    #desinax-figure.figure();
+}
