@@ -1,6 +1,6 @@
 ---
 ---
-Designprinciper
+Designprincip
 ========================
 
 I denna rapport kommer vi analysera tre olika webbplatser och studera dem utifrån aspekten designprinciper.
